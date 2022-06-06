@@ -1,0 +1,130 @@
+.OwO-logo {
+	display:inline-block;
+	padding:0;
+	width:60px;
+	height:25px;
+	color:#fff;
+	border-radius:2px;
+	position:relative;
+	z-index:101;
+	font-size:12px;
+	text-align:center;
+	line-height:23px;
+	margin-top:3px;
+	cursor:pointer;
+	background-image:-webkit-linear-gradient(0deg,#3ca5f6 0%,#a86af9 100%);
+}
+.OwO-logo svg {
+	width:16px;
+	height:16px;
+	vertical-align:-5px;
+}
+
+.OwO-logo-edi svg {
+	width:18px;
+	height:18px;
+	vertical-align:-5px;
+}
+
+.OwO-logo-edi .OwOlogotext {
+    display: none!important;
+}
+
+
+.OwO-logo .OwOlogotext {
+	vertical-align:middle;
+	line-height:1;
+	font-size:12px!important;
+}
+.bq-list {
+	border:1px #cccccc solid;
+	background:#ffffff;
+	width:360px;
+	position:absolute;
+	z-index:99999;
+	display:none;
+}
+.bq-list.active{
+    width: 360px;
+    display: block;
+    position:absolute;
+	z-index:99999;
+	box-shadow: 0 1px 5px 0 rgb(0 0 0 / 14%);
+}
+.bq-list ul {
+	padding:10px;
+	padding:0 10px 0 10px;
+	margin:0;
+	font-size:0;
+	overflow-x:hidden;
+	display:flex;
+	flex-wrap:wrap;
+}
+/*.bq-list ul li {
+	*/
+/*  max-width:50px;
+	*/
+/*  box-sizing:border-box;
+	*/
+/*  padding:5px 10px;
+	*/
+/*  margin:2px 2px;
+	*/
+/*  display:flex;
+	*/
+/*  justify-content:center;
+	*/
+/*  align-items:center;
+	*/
+/*  transition:all 0.2s linear;
+	*/
+/*
+}
+*/
+
+.bq-list ul li {
+	font-size:14px;
+	line-height:14px;
+	padding:5px 10px;
+	margin:2px 4px;
+	display:flex;
+	/*justify-content:center;
+	*/
+  align-items:center;
+	transition:all 0.2s linear;
+}
+.bq-list ul li:hover {
+	background:#eee;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)
+}
+.bq-list ul li img {
+	max-width:35px;
+}
+.bq-list .OwO-bar {
+	height:30px;
+	position:relative;
+	width:100%;
+	background:#eee;
+}
+.bq-list .OwO-bar-item {
+	float:left;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	cursor:pointer;
+	margin-right:3px;
+}
+.bq-list .OwO-bar-item.active {
+	background:#fff;
+}
+.OwO-emoji {
+	height:200px;
+	overflow-y:scroll;
+}
+.OwO-emoji ul {
+	display:none;
+}
+.bq-list ul.active-txt {
+	display:flex;
+}
